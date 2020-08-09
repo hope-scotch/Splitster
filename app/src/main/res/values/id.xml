@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="addId" type="id" format="string" />
+    <item name="viewId" type="id" format="string" />
+    <item name="refreshId" type="id" format="string" />
+    <item name="deleteId" type="id" format="string" />
+</resources>

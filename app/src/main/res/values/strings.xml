@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Splitster</string>
+    <string name="instructHead"><b>Instruction Manual</b></string>
+    <string name="instructions">
+        Hello Guys! Welcome to the all new Splitster App! Be it any college trip, family outing, or simply hanging out with friends over a cup of coffee, bill-splitting has always been a pain in the bum. So, presenting to you, this application, specially developed to come to your rescue.
+    </string>
+    <string name="add1"> <b>Adds</b> a valid entry with a valid <b>\"Name\"</b> Field and a valid <b>\"Amount Paid\"</b> Field. Press this when you are done filling up a proper entry.</string>
+    <string name="add2"> <i><b>Note: </b> Once an entry has been added to the list, it <u>can\'t</u> be further edited. <u>It can be deleted though.</u></i></string>
+    <string name="view"><b>Views</b> the final amount to be <b>\"given by\"</b> or to be <b>\"taken from\"</b> the entry list. Press this when you are done <b>adding</b> all the entries</string>
+    <string name="refresh"><b>Refreshes</b> the list and all the present data. Press this <b>only</b> when you want to make a <b>New List</b></string>
+    <string name="delete"><b>Deletes</b> a valid entry with a valid \"Name\" Field and a valid \"Amount Paid\" Field. Press this when you are done writing a proper entry</string>
+    <string name="logout"><b>Logs Out</b> of current user account. \n<i><b>Note: </b> All current data will be <u>deleted</u></i></string>
+    <string name="exit"><b>Exits</b> from the application. \n<i><b>Note: </b> All current data will be <u>deleted</u></i></string>
+</resources>

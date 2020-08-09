@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#0a1e64"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="40">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/splitster"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/reg_text"/>
+
+
+    </LinearLayout>
+
+
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#0a1e64"
+    android:layout_weight="20">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:background="#0a1e64">
+
+
+    <EditText
+        android:id="@+id/regUser"
+        android:inputType="text"
+        android:hint="Username"
+        android:textColorHint="#C982EBF6"
+        android:textColor="#87AAFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/regErr1"
+        android:inputType="text"
+        android:layout_marginLeft="10dp"
+        android:textColor="#DFFF0000"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"/>
+    <EditText
+        android:id="@+id/regPass"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:textColorHint="#C982EBF6"
+        android:textColor="#87AAFF"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/regErr2"
+        android:inputType="text"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"/>
+    <EditText
+        android:id="@+id/regConfirmPass"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#C982EBF6"
+        android:textColor="#87AAFF"
+        android:hint="Confirm Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/regErr3"
+        android:inputType="text"
+        android:textColor="#DFFF0000"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"/>
+    <EditText
+        android:id="@+id/regEmail"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#C982EBF6"
+        android:textColor="#87AAFF"
+        android:hint="Email Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/regErr4"
+        android:inputType="text"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"/>
+
+
+</LinearLayout>
+
+</ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="40">
+    <Button
+        android:id="@+id/bNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/next_props"
+        />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:paddingTop="2sp"
+    android:contentDescription="@string/googlepay_button_content_description"
+    >
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:layout_weight="1"
+            android:layout_width="152dp"
+            android:layout_height="48sp"
+            android:scaleType="fitCenter"
+            android:duplicateParentState="true"
+            android:id="@+id/ibGPay"
+            android:src="@drawable/googlepay_button_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="250dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:duplicateParentState="true"
+        android:src="@drawable/googlepay_button_overlay"/>
+</RelativeLayout>
